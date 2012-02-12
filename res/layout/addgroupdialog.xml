@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/addgroupll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+    	android:id="@+id/addgroup_desc"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Group name" >
+    </TextView>
+    <EditText
+    	android:id="@+id/addgroup_name"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+    </EditText>
+    <Button
+    	android:id="@+id/addgroup_submit"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Submit" android:layout_gravity="right">
+    </Button>
+</LinearLayout>

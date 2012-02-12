@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="30dip"
+    android:background="#FFFFFF" >
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:orientation="vertical"
+		android:layout_gravity="center" 
+		android:background="@drawable/linear_layout_border" >
+		<Button
+			android:id="@+id/classmodebutton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Class session">
+		</Button>
+		<Button
+			android:id="@+id/buildmodebutton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Question builder">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

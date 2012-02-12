@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/outside"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+	<LinearLayout 
+    	android:id="@+id/scroller"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_gravity="top" >
+    	<LinearLayout
+    		android:orientation="vertical"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:paddingTop="6dip"
+			android:layout_gravity="top" >
+    		<Button
+        		android:id="@+id/openmc_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/openmc_label" />
+			<Button
+        		android:id="@+id/opentog_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/opentog_label" />
+			<Button
+        		android:id="@+id/openslides_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/openslides_label" />
+			<Button
+        		android:id="@+id/opencombos_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/opencombos_label" />
+			<Button
+        		android:id="@+id/opentextbox_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/opentextbox_label" />
+			<Button
+        		android:id="@+id/openmousecontrol_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/openmousecontrol_label" />
+			<Button
+        		android:id="@+id/close_button"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/close_label" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

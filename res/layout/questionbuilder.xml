@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF" >
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    <TextView
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:text="Question Sets"
+	    	android:background="#000000"
+	    	android:textColor="#FFFFFF"
+	    	android:textSize="18dp"
+	    	android:paddingTop="10px"
+	    	android:paddingBottom="10px">
+		</TextView>
+		<ListView
+			android:id="@+id/qsetdisplay"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" >
+		</ListView>
+	</LinearLayout>
+	<LinearLayout 
+    	android:id="@+id/qb_button_bar"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:orientation="horizontal" 
+    	android:layout_alignParentBottom="true">
+    	<Button
+			android:id="@+id/addqsetbutton"		
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Add question set" >
+		</Button>
+	</LinearLayout>
+
+</RelativeLayout>

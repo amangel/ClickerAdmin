@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/addgroupll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <Button
+    	android:id="@+id/editwidgetbutton"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Edit">
+    </Button>
+    <Button
+    	android:id="@+id/deletewidgetbutton"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Delete">
+    </Button>
+    <Button
+    	android:id="@+id/cancelwidgetbutton"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Cancel">
+    </Button>
+</LinearLayout>

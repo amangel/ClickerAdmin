@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="30dip"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+    <LinearLayout
+    	android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center" >
+		<TextView
+			android:id="@+id/username_text"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Username" >
+		</TextView>
+		<EditText
+			android:id="@+id/username_field"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:text="frederis">
+		</EditText>
+		<TextView
+			android:id="@+id/password_text"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Password" >
+		</TextView>
+		<EditText
+			android:id="@+id/password_field"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:inputType="textPassword" 
+			android:text="testpw" >
+		</EditText>
+		<TextView
+			android:id="@+id/ip_text"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="IP Address" >
+		</TextView>
+		<EditText
+			android:id="@+id/ip_field"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:text="134.161.137.190" >
+		</EditText>	
+    	<Button
+        	android:id="@+id/connect_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/connect_label" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClickerAdmin</string>
+    <string name="main_title">ClickerAdmin</string>
+	<string name="connect_label">Connect</string>
+	<string name="openmc_label">Open Multiple Choice</string>
+	<string name="opentog_label">Open Toggle Choice</string>
+	<string name="openslides_label">Open Slider Question</string>
+	<string name="opencombos_label">Open ComboBox Question</string>
+	<string name="opentextbox_label">Open Free Response</string>
+	<string name="close_label">Close Question</string>
+	<string name="openset_label">Open Lecture Set</string>
+	<string name="setselect_title">Select a question set to load</string>
+	<string name="loadset_button_text">Load</string>
+	<string name="addgroup_label">Add a group</string>
+	<string name="randomgroup_label">Randomize</string>
+	<string name="savegroup_label">Save groups</string>
+	<string name="openmousecontrol_label">Open Mouse Control</string>
+</resources>

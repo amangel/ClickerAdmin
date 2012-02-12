@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#FFFFFF" >
+	<LinearLayout
+		android:id="@+id/qideditwrap"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Question ID"
+			android:background="#000000"
+	    	android:textColor="#FFFFFF"
+	    	android:textSize="18dp"
+	    	android:paddingTop="10px"
+	    	android:paddingBottom="10px" >
+		</TextView>
+		<EditText
+			android:id="@+id/qidedit"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			android:layout_alignParentTop="true" >
+		</EditText>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_weight="1"
+		android:layout_below="@+id/qideditwrap" >
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Widgets"
+			android:background="#000000"
+	    	android:textColor="#FFFFFF"
+	    	android:textSize="18dp"
+	    	android:paddingTop="10px"
+	    	android:paddingBottom="10px" >
+		</TextView>
+		<LinearLayout
+			android:id="@+id/sewidgetlist"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="vertical" >
+	</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:orientation="horizontal" 
+		android:layout_alignParentBottom="true">
+		<Button
+			android:id="@+id/addwidgetbutton"	
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Add a widget"
+			android:layout_weight="1" >
+		</Button>
+		<Button
+			android:id="@+id/savequestionbutton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Save"
+			android:layout_weight="1" >
+		</Button>
+		<Button
+			android:id="@+id/deletequestionbutton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Delete"
+			android:layout_weight="1" >
+		</Button>
+	</LinearLayout>
+</RelativeLayout>

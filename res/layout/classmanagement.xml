@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/outside"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<LinearLayout 
+    	android:id="@+id/cm_button_bar"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:orientation="horizontal" 
+    	android:layout_alignParentBottom="true">
+    	<Button
+        	android:id="@+id/addgroup_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/addgroup_label" />
+    	<Button
+        	android:id="@+id/randomgroup_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/randomgroup_label" />
+    	<Button
+        	android:id="@+id/savegroup_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/savegroup_label" />
+	</LinearLayout>
+	<LinearLayout
+    	android:id="@+id/group_scroller"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:layout_above="@id/cm_button_bar" >
+    	<LinearLayout
+    	   android:id="@+id/group_scroll_ll"
+    	   android:layout_width="fill_parent"
+    	   android:layout_height="fill_parent"
+    	   android:orientation="vertical" >
+    	</LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

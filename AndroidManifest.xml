@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.clicker.admin"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.STATUS_BAR"></uses-permission>
+	<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:name=".AdminApplication">
+        <activity android:name=".AdminSplash"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClickerAdmin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.clicker.admin.splashscreen.ClickerAdmin" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminInterface"
+			android:label="@string/app_name" >
+		</activity>
+		<activity android:name=".SetSelectInterface"
+			android:label="@string/app_name" >
+		</activity>
+		<activity android:name=".LectureSetInterface"
+			android:label="@string/app_name" >
+		</activity>
+		<activity android:name=".ClassManagement"
+			android:label="@string/app_name" >
+		</activity>
+		<activity android:name="AdminTabs" android:label="@string/app_name"
+          android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+		<activity android:name=".ModeSelector"
+			android:label="@string/app_name" >
+		</activity>
+		<activity android:name=".QuestionBuilder"
+			android:label="@string/app_name" >
+		</activity>
+		<activity android:name="SetEditor"
+			android:label="@string/app_name"
+			android:windowSoftInputMode="stateHidden" >
+		</activity>
+		<activity android:name="QuestionEditor"
+			android:label="@string/app_name"
+			android:windowSoftInputMode="stateHidden" >
+		</activity>
+    </application>
+</manifest>
